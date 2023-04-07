@@ -1,0 +1,126 @@
+html {
+  background-color: rgb(245, 245, 245);
+}
+
+#root {
+  max-width: 1000px;
+  margin: auto;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    sans-serif,
+    "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  margin-top: 100px;
+  color: rgb(30, 30, 30);
+}
+
+h1 {
+  font-weight: 100;
+  box-shadow: -4px -4px 6px #ffffff;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 120px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.description .tools {
+  color: rgb(142, 142, 142);
+}
+
+.description .tools i {
+  margin: 0 10px 0 0;
+}
+
+.sub-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.logos img {
+  height: 50px;
+}
+
+.wid {
+  writing-mode: tb;
+  transform: rotate(180deg);
+  float: left;
+}
+
+.legende {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.role {
+  margin: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: rgb(142, 142, 142);
+}
+
+.role div {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  border-radius: 50px;
+  box-shadow: 3px 3px 5px #e6e6e6,
+    -3px -3px 5px #ffffff;
+}
+
+.role i {
+  margin-top: 10px;
+}
+
+.role span {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.visual {
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px #e6e6e6,
+    -4px -4px 6px #ffffff;
+}
+
+.linkedin-icon {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.footer {
+  margin-top: 100px;
+  border-top: solid 1px rgb(142, 142, 142);
+  padding: 70px 0;
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(142, 142, 142);
+}
+
+.footer a {
+  color: rgb(142, 142, 142);
+}
