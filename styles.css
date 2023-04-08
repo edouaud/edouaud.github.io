@@ -51,6 +51,7 @@ img {
 
 .logos img {
   height: 50px;
+  margin: 0 15px;
 }
 
 .wid {
@@ -62,6 +63,8 @@ img {
 .legende {
   text-align: center;
   font-style: italic;
+  color: rgb(142, 142, 142);
+  font-size: 0.8em;
   margin-bottom: 60px;
 }
 
@@ -79,6 +82,7 @@ img {
   display: flex;
   flex-direction: column;
   color: rgb(142, 142, 142);
+  margin-top: 20px;
 }
 
 .role div {
@@ -102,7 +106,7 @@ img {
 }
 
 .visual {
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 4px 4px 6px #e6e6e6,
     -4px -4px 6px #ffffff;
 }
