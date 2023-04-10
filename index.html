@@ -7,20 +7,26 @@
   <link rel="stylesheet" type="text/css" href="https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3" />
   <script src="https://kit.fontawesome.com/e5abc32696.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <script src="titleAnimation.js"></script>
   <title>Manu Douaud - Portfolio</title>
 </head>
 
-<body>
-  Coming soon...
-  <div id="root" style="display:none">
-    <div style="color:rgb(215,215,215);font-style: italic;font-size:0.8em;">
-      ideas:<br />
-      "Better done than perfect"<br />
-      "less is more"<br />
-      "the perfection is ..." St Ex.<br />
+<body onload="titleFlick()">
+  <div id="root">
+    <div>
+      <div class="profilePicture"></div>
+      <div class="name">Emmanuel Douaud <a href="https://www.linkedin.com/in/emmanueldouaud/"><img
+            src="img/Logo Linkedin.png" class="linkedin-icon" /></a></div>
+      <div class="status">Product Management / Innovation / BI / Machine learning / Web3 / Blockchain / Aerospace /
+        Architecture / Slasher</div>
+    </div>
+    <div class="title">
+      Welcome to my portfolio.<br />
+      An overview on<br /><span id="overview"></span><br />
     </div>
 
-    <div> <!-- Mensa -->
+    <!-- Mensa SIGHT Map -->
+    <!-- div>
       <h1>Mensa SIGHT Map (2023)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -41,9 +47,10 @@
           <span><br />Dev</span>
         </div>
       </div>
-    </div>
+    </div -->
 
-    <div> <!-- Merval -->
+    <!-- Merval -->
+    <div>
       <h1>My.Merval (2018 - 2023)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -144,7 +151,8 @@
       </div>
     </div>
 
-    <div> <!-- IA Art Collection NFTs -->
+    <!-- IA Art Collection NFTs -->
+    <!-- div>
       <h1>IA Art Collection NFTs (2022)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -165,9 +173,10 @@
           <span><br />Dev</span>
         </div>
       </div>
-    </div>
+    </div -->
 
-    <div> <!-- blockVersity -->
+    <!-- blockVersity -->
+    <!-- div>
       <h1>blockVersity (2022)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -188,9 +197,10 @@
           <span><br />Dev</span>
         </div>
       </div>
-    </div>
+    </div -->
 
-    <div> <!-- Build Academy -->
+    <!-- Build Academy -->
+    <div>
       <h1>Build Academy (2021-2022)</h1>
       <div class="roles">
         <div class="sub-title wid">What I do</div>
@@ -267,7 +277,8 @@
       </div>
     </div>
 
-    <div> <!-- ESA -->
+    <!-- ESA -->
+    <div>
       <h1>European Space Agency Project (2021)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -329,7 +340,8 @@
       </div>
     </div>
 
-    <div> <!-- Skyla -->
+    <!-- Skyla -->
+    <div>
       <h1>Skyla (2018)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -378,7 +390,8 @@
       </div>
     </div>
 
-    <div> <!-- SeeMy -->
+    <!-- SeeMy -->
+    <div>
       <h1>SeeMy Ideation (2007 - 2018)</h1>
       <div class="roles">
         <div class="sub-title wid">What I did</div>
@@ -480,10 +493,24 @@
         <span class="tools"><i class="fa-solid fa-code"></i>Technologies / Dev:</span> Java and no-SQL DB for the
         back-end. Javascript, Angular and Ionic for the front-end and the mobile apps.<br />
       </div>
+    </div>
 
-      <div class="footer">
-        April 2023 - <a href="mailto:emmanuel.douaud@gmail.com" target="_blank">emmanuel.douaud@gmail.com</a>
+    <div style="margin-top:30px;border-radius: 6px;box-shadow: 4px 4px 6px #e6e6e6;height: 40px;"></div>
+
+    <div class="footer">
+      <div style="font-size: 32px;">Let's connect</div>
+      <div style="margin:20px 0 50px 0;display: flex;justify-content: center;">
+        <a class="contactLink" href="https://www.linkedin.com/in/emmanueldouaud/">
+          <i class="fa-brands fa-linkedin"></i></a>
+        <a class="contactLink" href="mailto:emmanuel.douaud@gmail.com">
+          <i class="fa-solid fa-envelope-circle-check"></i></a>
+        <a class="contactLink" href="https://wa.me/+675619262">
+          <i class="fa-brands fa-square-whatsapp"></i></a>
       </div>
+      <a class="contactMeButton" href="mailto:emmanuel.douaud@gmail.com">Contact me</a>
+      <div class="quote">"Perfection is achieved, not when there is nothing more to add, but when there is nothing left
+        to take away."<span> - Antoine de Saint-Exupéry</span></div>
+      <div style="margin-top: 100px;font-size: 0.8em;margin-bottom: 60px;color:rgb(142,142,142)">April 2023</div>
     </div>
   </div>
 </body>

@@ -12,8 +12,39 @@ html {
     "Helvetica",
     "Arial",
     sans-serif;
-  margin-top: 100px;
   color: rgb(30, 30, 30);
+}
+
+.profilePicture {
+  background: url('img/Manu.jpg');
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 75px;
+  border: solid 5px white;
+  margin: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.status {
+  font-size: 1em;
+  width: 50%;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 70px;
+}
+
+.title span {
+  color: orange;
+  font-weight: bold;
 }
 
 h1 {
@@ -118,13 +149,45 @@ img {
 
 .footer {
   margin-top: 100px;
-  border-top: solid 1px rgb(142, 142, 142);
-  padding: 70px 0;
   text-align: center;
-  font-size: 0.8em;
-  color: rgb(142, 142, 142);
 }
 
-.footer a {
+.footer .contactLink {
+  font-size: 2em;
+  margin: 10px;
+  width: 40px;
+  display: block;
+  color: orange;
+}
+
+.footer .contactMeButton {
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+  text-transform: uppercase;
+  display: block;
+  border: solid 2px rgb(30, 30, 30);
+  width: 180px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.footer .contactMeButton:hover {
+  color: white;
+  background-color: rgb(30, 30, 30);
+}
+
+.footer .quote {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5em;
+  width: 60%;
+  min-width: 450px;
+  margin: 100px auto 0 auto;
+}
+
+.footer .quote span {
+  display: block;
+  font-size: 0.8em;
   color: rgb(142, 142, 142);
 }
