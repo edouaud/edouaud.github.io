@@ -1,8 +1,8 @@
 var words = [
-  'how I work.'
-  , 'what I worked.'
-  , 'with who I worked.'
-  , 'what we can do together!'],
+  "how I work.",
+  "what I've worked on.",
+  "whom I've worked with!",
+  "what we can do together!"],
   part,
   i = 0,
   offset = 0,
